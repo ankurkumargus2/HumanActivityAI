@@ -1,0 +1,22 @@
+
+# Python virtual environment
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Local environment secrets
+.env
+.env.*
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Local database and generated data
+data/processed/*.db
+data/processed/*.sqlite
+data/processed/*.sqlite3
+
+# Temporary files
+*.log
+.DS_Store
